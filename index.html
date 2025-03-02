@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&display=swap" rel="stylesheet">
+	<title>Dashboard</title>
+</head>
+<body>
+	<div class="sidebar">
+		<div class="sidebargrid">
+			<div class="title"><img src="icons/gamepad.svg"> Dashboard</div>
+			<a href="#"><img src="icons/home.svg">Home</a>
+			<a href="#"><img src="icons/profile.svg">Profile</a>
+			<a href="#"><img src="icons/message.svg">Messages</a>
+			<a href="#"><img src="icons/clock.svg">History</a>
+			<a href="#"><img src="icons/tasks.svg">Tasks</a>
+			<a href="#"><img src="icons/group.svg">Communities</a>
+			<a href="#" style="grid-row-start: 11;"><img src="icons/cog.svg">Settings</a>
+			<a href="#" style="grid-row-start: 12;"><img src="icons/help.svg">Support</a>
+			<a href="#" style="grid-row-start: 13;"><img src="icons/shield.svg">Privacy</a>
+		</div>
+	</div>
+	<div class="principal">
+		<div class="navbar">
+			<div class="search"><img src="icons/magnify.svg"><input type="text"></div>
+			<div class="notifications"><img src="icons/bell_alert.svg"></div>
+			<div class="user"><img src="https://cdn-icons-png.flaticon.com/512/17446/17446833.png"><span>{username}</span></div>
+			<div class="userhello">
+				<img src="https://cdn-icons-png.flaticon.com/512/17446/17446833.png">
+				<h1>Hi there,</h1>
+				<h2>{username} (@{nickname})</h2>
+			</div>
+			<div class="buttons">
+				<button id="new">New</button>
+				<button id="upload">Upload</button>
+				<button id="share">Share</button>
+			</div>
+		</div>
+		<div class="info">
+			<div class="lat_izq">
+				<span>You Projects</span>
+				<div class="projects">
+					<div class="card">
+						<h1>Super Cool Project</h1>
+						<p>Danish jelly-o marzipan apple pie toffee danish jelly-o. Soufflé candy canes bonbon muffin chocolate pudding caramels chocolate. Dessert croissant pie jelly cake icing topping sweet. Gummi bears sweet gummi bears jelly-o croissant.</p>
+						<div class="butgrup">
+							<button id="fav"><img src="icons/star.svg"></button>
+							<button id="follow"><img src="icons/follow.svg"></button>
+							<button id="sharepic"><img src="icons/share.svg"></button>
+						</div>
+					</div>
+					<div class="card">
+						<h1>Less Cool Project</h1>
+						<p>Icing muffin halvah cookie cotton candy fruitcake dragée. Dessert marzipan dessert macaroon sugar plum gummi bears caramels oat cake. Dessert muffin cake biscuit cake topping macaroon bear claw icing. Pudding sugar plum wafer candy pastry shortbread.</p>
+						<div class="butgrup">
+							<button id="fav"><img src="icons/star.svg"></button>
+							<button id="follow"><img src="icons/follow.svg"></button>
+							<button id="sharepic"><img src="icons/share.svg"></button>
+						</div>
+					</div>
+					<div class="card">
+						<h1>Impossible App</h1>
+						<p>Oat cake danish tiramisu dragée gummies. Tart fruitcake candy chocolate bar cotton candy shortbread tiramisu gingerbread candy.</br></br>Dessert sweet roll sweet tart sweet roll.</p>
+						<div class="butgrup">
+							<button id="fav"><img src="icons/star.svg"></button>
+							<button id="follow"><img src="icons/follow.svg"></button>
+							<button id="sharepic"><img src="icons/share.svg"></button>
+						</div>
+					</div>
+					<div class="card">
+						<h1>Easy Peasy App</h1>
+						<p>Apple pie wafer cotton candy tiramisu candy cake. Cake danish chupa chups danish topping chupa chups.</p>
+						<div class="butgrup">
+							<button id="fav"><img src="icons/star.svg"></button>
+							<button id="follow"><img src="icons/follow.svg"></button>
+							<button id="sharepic"><img src="icons/share.svg"></button>
+						</div>
+					</div>
+					<div class="card">
+						<h1>Add Blocker</h1>
+						<p>Sweet roll wafer fruitcake icing cake brownie sugar plum wafer bonbon. Chocolate bar powder cake tiramisu lemon drops biscuit jujubes.</br></br>Jujubes pie marzipan candy canes sesame snaps caramels tootsie roll. Fruitcake topping macaroon.</p>
+						<div class="butgrup">
+							<button id="fav"><img src="icons/star.svg"></button>
+							<button id="follow"><img src="icons/follow.svg"></button>
+							<button id="sharepic"><img src="icons/share.svg"></button>
+						</div>
+					</div>
+					<div class="card">
+						<h1>Money Maker</h1>
+						<p>Tootsie roll shortbread bonbon wafer tart chocolate.</br></br>Mi compu es chikita.</p>
+						<div class="butgrup">
+							<button id="fav"><img src="icons/star.svg"></button>
+							<button id="follow"><img src="icons/follow.svg"></button>
+							<button id="sharepic"><img src="icons/share.svg"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="lat_der">
+				<div class="contop">
+					<span>Announcements</span>
+					<div class="annons">
+						<div class="ann">
+							<h1>Site Maintenance</h1>
+							<p>The site will be offline til year 2027.</p>
+						</div>
+						<div class="ann">
+							<h1>Comunnity Share Day</h1>
+							<p>Who like those? I would like to know, you know.</p>
+						</div>
+						<div class="ann">
+							<h1>Update Privacy Policy</h1>
+							<p>You just can't put on a sticky note your password.</p>
+						</div>
+					</div>
+				</div>
+				<div class="condown">
+					<span>Trending</span>
+					<div class="trends">
+						<div class="trendcont">
+							<div class="us">
+								<img src="https://cdn-icons-png.flaticon.com/512/3460/3460473.png">
+								<h2>@Dcaprio</h2>
+								<p>World Peace Maker</p>
+							</div>
+							<div class="us">
+								<img src="https://cdn-icons-png.flaticon.com/512/17446/17446833.png">
+								<h2>@{nickname}</h2>
+								<p>The Best User Here</p>
+							</div>
+							<div class="us">
+								<img src="https://cdn-icons-png.flaticon.com/512/952/952418.png">
+								<h2>@Kenny</h2>
+								<p>Life Changing App</p>
+							</div>
+							<div class="us">
+								<img src="https://cdn-icons-png.flaticon.com/512/2267/2267570.png">
+								<h2>@Danda</h2>
+								<p>Truest Cow Abduction</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="javascript.js"></script>
+</html>
