@@ -1,1 +1,1 @@
-# git_dashboard
+A Dashboard project. Just practice some grid options instead flex.
